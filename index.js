@@ -2,9 +2,7 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[894,1498,158,137],[0,0,1051,1259],[1250,1748,187,172],[1060,1748,188,190],[1439,1829,179,174],[1053,0,910,953],[1459,1618,222,209],[1810,1150,137,412],[1179,1150,629,160],[1179,1467,522,149],[0,1498,892,245],[1053,955,930,193],[0,1897,1058,130],[0,1745,970,150],[0,1261,1177,235],[1179,1312,519,153],[1060,1618,397,128]]}
-];
+lib.ssMetadata = [];
 
 
 (lib.AnMovieClip = function(){
@@ -28,122 +26,105 @@ lib.ssMetadata = [
 
 
 (lib.asteroid161 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.asteroid161);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,158,137);
 
 
 (lib.backgroundpngcopy = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.backgroundpngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1051,1259);
 
 
 (lib.earth11 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.earth11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,187,172);
 
 
 (lib.earth21 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.earth21);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,188,190);
 
 
 (lib.earth31 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.earth31);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,179,174);
 
 
 (lib.jupmars = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.jupmars);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,910,953);
 
 
 (lib.psychecraft1 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.psychecraft1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,222,209);
 
 
 (lib.spacecraft1 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.spacecraft1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,137,412);
 
 
 (lib.text1 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.text1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,629,160);
 
 
 (lib.text10 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.text10);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,522,149);
 
 
 (lib.text2 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.text2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,892,245);
 
 
 (lib.text3 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.text3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,930,193);
 
 
 (lib.text4 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.text4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1058,130);
 
 
 (lib.text6 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.text6);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,970,150);
 
 
 (lib.text7 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.text7);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1177,235);
 
 
 (lib.text8 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.text8);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,519,153);
 
 
 (lib.text9pngcopy = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.text9pngcopy);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,397,128);
 
 
 (lib.Tween23 = function(mode,startPosition,loop,reversed) {
@@ -583,7 +564,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.text3();
-	this.instance.setTransform(-228,-915.95,0.5129,0.5129);
+	this.instance.setTransform(-228,-915.95,1.0058,1.0058);
 
 	this.instance_1 = new lib.Tween15("synched",0);
 	this.instance_1.setTransform(0,394.95);
@@ -609,7 +590,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.text3();
-	this.instance.setTransform(-228,-915.95,0.5129,0.5129);
+	this.instance.setTransform(-228,-915.95,1.0058,1.0058);
 
 	this.instance_1 = new lib.Tween15("synched",0);
 	this.instance_1.setTransform(0,395);
@@ -896,16 +877,16 @@ if (reversed == null) { reversed = false; }
 	this.instance_3._off = true;
 
 	this.instance_4 = new lib.text4();
-	this.instance_4.setTransform(228,294,0.5692,0.5692);
+	this.instance_4.setTransform(228,294,0.9986,0.9986);
 
 	this.instance_5 = new lib.Tween21("synched",0);
 	this.instance_5.setTransform(451.05,1589.95);
 
 	this.instance_6 = new lib.text6();
-	this.instance_6.setTransform(352,357,0.4933,0.4933);
+	this.instance_6.setTransform(352,357,1.0068,1.0068);
 
 	this.instance_7 = new lib.text7();
-	this.instance_7.setTransform(320,448,0.5319,0.5319);
+	this.instance_7.setTransform(320,448,1.0036,1.0036);
 
 	this.instance_8 = new lib.text8();
 	this.instance_8.setTransform(37,69);
@@ -923,7 +904,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},60).to({state:[{t:this.instance_2}]},34).to({state:[{t:this.instance_3}]},35).to({state:[{t:this.instance_5},{t:this.instance_4}]},26).to({state:[{t:this.instance_5},{t:this.instance_6}]},10).to({state:[{t:this.instance_5},{t:this.instance_7}]},9).to({state:[{t:this.instance_5},{t:this.instance_8}]},10).to({state:[{t:this.instance_5},{t:this.instance_9}]},10).to({state:[{t:this.instance_10}]},10).to({state:[{t:this.instance_11}]},55).wait(1));
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true,x:455,y:283},60).wait(200));
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:false},60).to({_off:true,y:1149.95},34).wait(166));
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(129).to({_off:false},0).to({_off:true,scaleX:0.5692,scaleY:0.5692,x:228,y:294},26).wait(105));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(129).to({_off:false},0).to({_off:true,scaleX:0.9986,scaleY:0.9986,x:228,y:294},26).wait(105));
 	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(204).to({_off:false},0).to({_off:true,x:851,y:1556.95},55).wait(1));
 
 	// _6
@@ -1010,7 +991,23 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png", id:"index_atlas_1"}
+		{src:"images/asteroid161.png", id:"asteroid161"},
+		{src:"images/backgroundpngcopy.png", id:"backgroundpngcopy"},
+		{src:"images/earth11.png", id:"earth11"},
+		{src:"images/earth21.png", id:"earth21"},
+		{src:"images/earth31.png", id:"earth31"},
+		{src:"images/jupmars.png", id:"jupmars"},
+		{src:"images/psychecraft1.png", id:"psychecraft1"},
+		{src:"images/spacecraft1.png", id:"spacecraft1"},
+		{src:"images/text1.png", id:"text1"},
+		{src:"images/text10.png", id:"text10"},
+		{src:"images/text2.png", id:"text2"},
+		{src:"images/text3.png", id:"text3"},
+		{src:"images/text4.png", id:"text4"},
+		{src:"images/text6.png", id:"text6"},
+		{src:"images/text7.png", id:"text7"},
+		{src:"images/text8.png", id:"text8"},
+		{src:"images/text9pngcopy.png", id:"text9pngcopy"}
 	],
 	preloads: []
 };
